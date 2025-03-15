@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller = "MyController" fx:id = "root">
+	<!-- TODO Add Nodes -->
+	
+	<left> <VBox fx:id = "box" spacing = "5.0">
+		<Button fx:id = "b1" text = "button 1" onAction = "#b1Method"/>
+		<Button fx:id = "b2" text = "button 2" onAction = "#b2Method"/>
+	</VBox> </left>
+	
+	<center><TextField fx:id = "t1" promptText = "enter text here then press button 1"/></center>
+	<right><TextField fx:id = "t2" text = "final string goes here" editable = "false"/></right>
+	
+</BorderPane>
+
