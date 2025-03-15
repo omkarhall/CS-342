@@ -1,0 +1,12 @@
+.button{
+	-fx-font-size: 14px;
+	-fx-font-weight: bold;
+	-fx-background-color: lightgray;
+}
+
+.root{
+	-fx-background-color: blanchedalmond;
+	-fx-font-family: times new roman;
+}
+
+
